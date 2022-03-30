@@ -44,11 +44,11 @@ make sure to replace inputfile and outputfile with correct relevant filenames wi
 
 To build run issue command
 
-`go build main.go`
+`go build -o ./cnvrt main.go`
 
-this will creatre **main** in the same folder which is an executable, now run it by issuing the command
+this will creatre **cnvrt** an executable in the same folder, now run it by issuing the command
 
-`./main inputfile outputfile`   
+`./cnvrt inputfile outputfile`   
 
 make sure to replace inputfile and outputfile with correct relevant filenames with path
 ## Testing
